@@ -7,9 +7,9 @@ from jenkinsapi.jenkins import Jenkins
 class BaseJenkinsAPI:
 
     def __init__(self, server_url, username=None, password=None):
-        self.url = server_url
-        self.username = username
-        self.password = password
+        self.url = 'http://dbtul.com:8080'
+        self.username = 'admin'
+        self.password = 'Rock2Roll'
         if self.username and self.password:
             self.instance = Jenkins(self.url, self.username, self.password)
         else:
