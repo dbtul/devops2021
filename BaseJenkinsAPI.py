@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import sys
-
+import jenkinsapi
 from jenkinsapi.jenkins import Jenkins
 
 
